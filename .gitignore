@@ -1,1 +1,6 @@
 examples_from_lessons/*
+coco_dataset/*
+down_data.ipynb
+.ipynb_checkpoints/
+annotations_trainval2014/
+annotations_trainval2017/

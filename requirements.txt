@@ -1,0 +1,13 @@
+pandas
+matplotlib
+numba
+tqdm
+albumentations
+torch
+rasterio
+torchvision
+opencv-python
+segmentation_models_pytorch
+tensorboard
+scikit-image
+cocotools
