@@ -3,3 +3,4 @@ coco_dataset/*
 .ipynb_checkpoints/
 annotations_trainval2014/
 annotations_trainval2017/
+MyPytorchModel/*
