@@ -4,3 +4,6 @@ coco_dataset/*
 annotations_trainval2014/
 annotations_trainval2017/
 MyPytorchModel/*
+CatPytorchModel/*
+mydata/*
+test_dataset/*
