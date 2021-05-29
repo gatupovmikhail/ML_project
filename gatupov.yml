@@ -1,4 +1,4 @@
-name: ml
+name: gatupov
 channels:
   - conda-forge
   - defaults
