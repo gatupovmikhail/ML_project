@@ -12,6 +12,7 @@ https://cocodataset.org/#home
 Чтобы запустить приложение нужно выполнить следующие команды:
 ```bash  
 git clone https://github.com/gatupovmikhail/ML_project  
+cd ML_project  
 conda env create -f gatupov.yml  
 conda activate gatupov.yml  
 chmod u+x down_test.sh  
