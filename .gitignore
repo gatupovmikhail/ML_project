@@ -8,3 +8,5 @@ CatPytorchModel/*
 mydata/*
 test_dataset/*
 CatPytorchModel/*
+example_dataset/
+statistic_tensorboard/*
