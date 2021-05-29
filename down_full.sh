@@ -1,7 +1,7 @@
 #!/bin/bash
 echo 'Downloading of .json for example datastet' && \
 wget http://images.cocodataset.org/annotations/annotations_trainval2014.zip && \
-unzip annotations_trainval2014.zip -d annotations_trainval2014 && \
+unzip annotations_trainval2014.zip && \
 rm annotations_trainval2014.zip && \
 echo 'Done' && \
 python3 download_data.py && \
