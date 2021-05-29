@@ -18,7 +18,7 @@ print('##### LOGS of downloading.py #####')
 dataDir='annotations_trainval2014'
 dataType='val2014'
 annFile='{}/annotations/instances_{}.json'.format(dataDir,dataType)
-DATA_DIR = 'COCO_dataset/'
+DATA_DIR = 'coco_dataset/'
 
 coco=COCO(annFile)
 
