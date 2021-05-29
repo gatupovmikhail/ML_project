@@ -6,7 +6,7 @@ rm example_dataset.zip && \
 echo ' Done' && \
 echo 'Downloading of model' && \
 wget https://data.cyverse.org/dav-anon/iplant/home/mikhailgatupov/CatPytorchModel.zip  && \
-unzip CatPytorchModel.zip CatPytorchModel && \
+unzip CatPytorchModel.zip -d CatPytorchModel && \
 rm CatPytorchModel.zip && \
 echo 'Done' && \
 exit 0
