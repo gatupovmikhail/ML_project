@@ -14,7 +14,7 @@ https://cocodataset.org/#home
 chmod u+x starting.sh && \
 bash starting.sh
 ```
-Или выполнить по очереди следующие команды:
+Или выполнить следующие команды (можно скопировать разом в терминал):
 ```bash  
 git clone https://github.com/gatupovmikhail/ML_project && \
 cd ML_project && \
