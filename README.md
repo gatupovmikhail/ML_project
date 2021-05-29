@@ -10,14 +10,14 @@ https://cocodataset.org/#home
 
 ## Загрузка
 Чтобы запустить приложение нужно выполнить следующие команды:
-'''
-git clone https://github.com/gatupovmikhail/ML_project
-conda env create -f gatupov.yml
-conda activate gatupov.yml
-chmod u+x down_test.sh
-bash down_test.sh
-pytnon3 app.py
-'''
+```bash  
+git clone https://github.com/gatupovmikhail/ML_project  
+conda env create -f gatupov.yml  
+conda activate gatupov.yml  
+chmod u+x down_test.sh  
+bash down_test.sh  
+pytnon3 app.py  
+```
 Скрипт **down_test.sh** Загрузит тестовый датасет и веса обученной нейросети. 
 После запуска программы **app.py** появится графическое окно. Через появившееся окно нужно войти **внутрь** дирректории **example_dataset** (Название папки должно появиться в поле окна "Select"). То, что фотографии не отображаются внутри окна, нормально. 
 Также вы можете выбрать свою папку с фотографиями вместо предложенной.
@@ -25,8 +25,8 @@ pytnon3 app.py
 
 ## Нейросеть
 Сама нейросеть, даталоадер и "тренер" нейросети находятся в скрипте **my_net.ipynb**. Однако, чтобы заново потренировать модель нужно загрузить полный датасет данных с сайта COCO:
-'''
-chmod u+x down_full.sh
-bash down_full.sh
-'''
+```bash
+chmod u+x down_full.sh  
+bash down_full.sh    
+```
 И загружаться он будет довольно долго. 
