@@ -11,3 +11,4 @@ segmentation_models_pytorch
 tensorboard
 scikit-image
 cocotools
+python-magic
